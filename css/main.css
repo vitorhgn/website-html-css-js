@@ -1,6 +1,12 @@
 body{
     margin: 0px;
-    background-color: gray;
+    background-color: #eeeeee;
+}
+.white{
+    background-color: #ffffff;
+}
+.margin-left-50px{
+    margin-left: 50px;
 }
 .nav-bar-1{
     background-color: #252323;
@@ -127,4 +133,83 @@ ul.slick-dots{
 }
 .slick-active button {
     background-color: #00bac6 !important;
+}
+.container-1{
+    background-color: #ffffff;
+    height: 600px;
+    width: 100%;
+}
+.container-main{
+    width: 980px;
+    margin: 0 auto;
+}
+.container-1-text{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container-1-section {
+    display: flex;
+}
+.section{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section.margin-left-50px{
+    margin-left: 50px;
+}
+#section-green{
+    padding-top: 80px;
+}
+.photos-section-1{
+    min-width: 33.33%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.photos-section-1 img{
+    height: 100%;
+    min-height: 200px;
+}
+.photos-text{
+    border: 1px solid #c5c5c5;
+    min-height: 350px;
+}
+.photos-section-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.photos-section-2{
+    padding-bottom: 50px;
+}
+.brand-section{
+    display: flex;
+    min-height: 200px;
+}
+.brand{
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 15%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.brand img{
+    width: 100%;
+    max-height: 80px;
+}
+.brand.padding-left-50px{
+    margin-left: 150px;
 }
