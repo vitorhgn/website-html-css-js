@@ -102,6 +102,16 @@ button.slick-next{
 }
 .slick-dots{
     display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    z-index: 9;
+}
+ul.slick-dots{
+    padding:0px;
+	margin: 0px;
 }
 .slick-dots li{
     font-size: 0px;
