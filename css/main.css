@@ -1,11 +1,10 @@
 body{
     margin: 0px;
+    width: 100%;
     background-color: #eeeeee;
     color: #9a9a9a;
     font-family: 'Roboto', sans-serif;
-
 }
-
 .white{
     background-color: #ffffff;
 }
